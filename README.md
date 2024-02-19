@@ -5,6 +5,7 @@
 The following command runs a couple of unit tests for the proc stat sampling system.
 
 ```bash
+pip3 install psutil prometheus_client
 python3 -m unittest discover -v tests/
 ```
 
